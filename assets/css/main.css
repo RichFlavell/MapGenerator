@@ -1,0 +1,93 @@
+/*
+ *  Created By: Rich Flavell - 2013
+ *  Email: me@richflavell.com
+*/
+
+/* Begin */
+
+html {
+	color: #F2F2F2;
+}
+
+#mask {
+	width: 100%;
+	height: 100%;
+	color: #F2F2F2;
+}
+
+#mask-input {
+	position: fixed;
+	width: 15%;
+	height: 15%;
+	margin: auto;
+	top: 42.5%;
+	right: 42.5%;
+	border: 2px solid #AAAAAB;
+	border-radius: 7px;
+	padding: 5px;
+	text-align: center;
+}
+
+#mask-input input {
+	margin: 5px 0;
+}
+
+#pallet {
+	position: fixed;
+	display: none;
+	top: 0;
+	width: 80%;
+	right: 10%;
+	background-color: #AAAAAB;
+	
+	padding: 5px 0;
+	
+}
+
+#pallet ul {
+	position: relative;
+	list-style: none;
+	margin: auto;
+	width: 85%;
+}
+
+#pallet ul li {
+	display: inline-block;
+	float: left;
+	margin: 0 5px;
+}
+
+#pallet ul li img {
+	cursor: pointer;
+	
+	transition: all linear 0.1s;
+	-moz-transition: all linear 0.1s;
+	-webkit-transition: all linear 0.1s;
+}
+#pallet ul li img:hover {
+	box-shadow: 0 0 15px #F2F2F2;
+	-moz-box-shadow: 0 0 15px #F2F2F2;
+	-webkit-box-shadow: 0 0 15px #F2F2F2;
+	
+	transition: all linear 0.1s;
+	-moz-transition: all linear 0.1s;
+	-webkit-transition: all linear 0.1s;
+}
+
+#pallet-trigger {
+	display: none;
+	position: fixed;
+	right: 47%;
+	width: 5%;
+	min-width: 50px;
+	
+	border-top: solid 25px #AAAAAB;
+	border-left: solid 15px transparent;
+	border-right: solid 15px transparent;
+}
+
+#arrow {
+	position: fixed;
+	right: 49.8%;
+	margin: 5px 0;
+}
